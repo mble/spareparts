@@ -55,7 +55,7 @@ end
 
 def write_version_file(output)
   return unless output
-  version_path = File.join(output, 'VERSION')
+  version_path = File.join(output, 'VERSION.txt')
   return if File.exist?(version_path)
 
   File.write(version_path, 'v0.0.1')

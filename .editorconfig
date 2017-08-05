@@ -1,0 +1,11 @@
+root = true
+
+[*]
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.{rb,erb}]
+indent_size = 2
+
+[*.go]
+ident_size = 4
